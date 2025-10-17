@@ -64,7 +64,7 @@ params:
                     <br><br>
                     I [research](papers) **theoretical neuroscience and machine learning** with a focus on spatial cognition, latent variable models and foundation models.  My [PhD](papers/phd_thesis/thesis.pdf) was at UCL under the supervision of [**Claudia Clopath**,](https://cclopath.bg-research.cc.ic.ac.uk) [**Caswell Barry**](https://barry-lab.com) and [**Kimberly Stachenfeld**.](https://neurokim.com)
                     <br><br>
-                    I build and maintain open-source tools for science including the [**RatInABox**](https://github.com/RatInABox-Lab/RatInABox) and [**SIMPL**](https://github.com/TomGeorge1234/simpl) packages. I recently completed an AI residency at [Google X](https://x.company) building large-scale foundation models. I also co-founded the [**CaMinA**,](https://trendinafrica.org/trend-camina/) a summer school for computational neuroscience and machine learning in Africa.
+                    I build open-source tools for science including the [**RatInABox**](https://github.com/RatInABox-Lab/RatInABox) and [**SIMPL**](https://github.com/TomGeorge1234/simpl) packages. I recently completed an AI residency at [Google X](https://x.company) on foundation modelling. I also co-founded the [**CaMinA**,](camina/) a summer school for computational neuroscience and machine learning in Africa.
                     <br><br>
                     **[Get in touch!](mailto:tom.george.20@ucl.ac.uk)** If any of the above interests you, or you are pursuing similar goals, I'd love to chat.
                     <br> 
@@ -85,7 +85,6 @@ params:
             - name: RatInABox
               url: https://github.com/RatInABox-Lab/RatInABox
             - name: CaMinA
-              # url: https://trendinafrica.org/trend-camina/
               url: camina/
 
     socialIcons:
