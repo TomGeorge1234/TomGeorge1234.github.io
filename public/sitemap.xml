@@ -233,6 +233,8 @@
     <loc>http://localhost:1313/courses/course2/</loc>
     <lastmod>2024-07-12T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/camina/</loc>
+  </url><url>
     <loc>http://localhost:1313/moreaboutme/</loc>
   </url><url>
     <loc>http://localhost:1313/teaching/</loc>

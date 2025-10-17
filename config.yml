@@ -31,7 +31,7 @@ menu:
           url: https://github.com/RatInABox-Lab/RatInABox
           weight: 6
         - name: CaMinA
-          url: https://trendinafrica.org/trend-camina/
+          url: camina/
           weight: 7
 
 params:
@@ -85,7 +85,8 @@ params:
             - name: RatInABox
               url: https://github.com/RatInABox-Lab/RatInABox
             - name: CaMinA
-              url: https://trendinafrica.org/trend-camina/
+              # url: https://trendinafrica.org/trend-camina/
+              url: camina/
 
     socialIcons:
         - name: CV
