@@ -118,7 +118,7 @@ params:
         hiddenInSingle: true
     label:
       text: "Tom George"
-      icon: picture.png
+      icon: tomgeorge.png
       iconHeight: 18
 
 markup:
