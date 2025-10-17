@@ -37,7 +37,7 @@ George, T. M., Glaser, P., Stachenfeld, K., Barry, C., & Clopath, C. (2025). SIM
 ```BibTeX
 @inproceedings{
 george2025simpl,
-title={{SIMPL}: Scalable and hassle-free optimisation of neural representations from behaviour},
+title={SIMPL: Scalable and hassle-free optimisation of neural representations from behaviour},
 author={Tom George and Pierre Glaser and Kim Stachenfeld and Caswell Barry and Claudia Clopath},
 booktitle={The Thirteenth International Conference on Learning Representations},
 year={2025},
