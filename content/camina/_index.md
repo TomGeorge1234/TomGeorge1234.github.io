@@ -9,7 +9,7 @@ It's low-budget, free to attend, and open-source.
 
 Since then we've hosted a bunch of courses across Africa (Ghana 2023, Rwanda 2024, Zambia 2025, Kenya 2026,...) and had a lot of fun!
 
-Find out more [here](camina_abstract.pdf) or on the [course website](https://trendinafrica.org/trend-camina/).
+Find out more [in this short report](camina_abstract.pdf) or on the [course website](https://trendinafrica.org/trend-camina/).
 
 ---
 
