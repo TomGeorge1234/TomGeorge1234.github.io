@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lili &amp; Tom — ampersand options</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&amp;family=Cormorant+Garamond:ital,wght@0,400;1,500&amp;family=DM+Sans:wght@300;400;500&amp;family=Italiana&amp;family=Italianno&amp;family=Playfair+Display:ital,wght@0,400;1,500&amp;display=swap" rel="stylesheet">
+  <style>
+    :root { background:#18241d; color:#fff; font-family:'DM Sans',sans-serif; }
+    * { box-sizing:border-box; }
+    body { margin:0; }
+    header { margin:auto; max-width:1100px; padding:50px 24px 36px; }
+    header p { color:#c8d0c8; font-size:11px; letter-spacing:.2em; margin:0 0 12px; text-transform:uppercase; }
+    header h1 { font-family:'Bodoni Moda',serif; font-size:clamp(36px,6vw,66px); font-weight:400; letter-spacing:-.04em; margin:0; }
+    header small { color:#c8d0c8; display:block; line-height:1.6; margin-top:15px; }
+    main { display:grid; gap:24px; grid-template-columns:repeat(2,minmax(0,1fr)); margin:auto; max-width:1400px; padding:24px; }
+    .option { aspect-ratio:16/9; background-image:linear-gradient(rgba(24,36,29,.16),rgba(24,36,29,.3)),url('/images/lili-and-tom/poets-stone.png'); background-position:center; background-size:cover; border-radius:12px; box-shadow:0 20px 55px rgba(0,0,0,.22); display:grid; overflow:hidden; place-items:center; position:relative; }
+    .label { background:rgba(24,36,29,.72); border-radius:99px; font-size:10px; left:18px; letter-spacing:.16em; padding:8px 12px; position:absolute; text-transform:uppercase; top:18px; }
+    .lockup { align-items:center; display:flex; font-family:'Bodoni Moda',serif; font-size:clamp(46px,7vw,100px); font-weight:400; letter-spacing:-.055em; line-height:1; text-shadow:0 3px 24px rgba(24,36,29,.28); white-space:nowrap; }
+    .amp { display:inline-block; letter-spacing:0; margin:0 .16em; position:relative; }
+    .one .amp { font-size:.62em; font-weight:500; }
+    .one .amp:after { border:1px solid rgba(255,255,255,.78); border-radius:50%; content:''; inset:-.25em -.3em -.18em; position:absolute; transform:rotate(-8deg); }
+    .two .amp { font-family:'Italiana',serif; font-size:.9em; font-weight:400; margin:0 .1em; transform:translateY(.04em); }
+    .three .amp { font-family:'Cormorant Garamond',serif; font-size:1.05em; font-style:italic; font-weight:500; margin:0 .08em; transform:translateY(.03em) rotate(-5deg); }
+    .four .amp { color:#f4dfc7; font-family:'Playfair Display',serif; font-size:.78em; font-style:italic; font-weight:500; margin:0 .18em; text-shadow:0 0 28px rgba(244,223,199,.45); transform:translateY(.02em); }
+    .five .amp { font-family:'Italianno',cursive; font-size:1.2em; font-weight:400; margin:0 .1em; transform:translateY(.05em); }
+    .six .amp { font-size:1.05em; font-weight:400; margin:0 .08em; -webkit-text-fill-color:transparent; -webkit-text-stroke:1px #fff; transform:scaleX(.82); }
+    .date { bottom:22px; font-size:9px; letter-spacing:.18em; position:absolute; text-transform:uppercase; }
+    @media(max-width:800px) { main { grid-template-columns:1fr; } .lockup { font-size:clamp(45px,14vw,86px); } }
+  </style>
+</head>
+<body>
+  <header>
+    <p>Hero mark study</p>
+    <h1>A more spectacular ampersand</h1>
+    <small>Six treatments rendered in the complete Lili &amp; Tom hero. Pick a number, or combine details from two.</small>
+  </header>
+  <main>
+    <section class="option one"><span class="label">1 · Encircled Bodoni</span><div class="lockup"><span>Lili</span><i class="amp">&amp;</i><span>Tom</span></div><div class="date">28th August 2027 • 2pm • Steep, Hampshire</div></section>
+    <section class="option two"><span class="label">2 · Monumental Italiana</span><div class="lockup"><span>Lili</span><i class="amp">&amp;</i><span>Tom</span></div><div class="date">28th August 2027 • 2pm • Steep, Hampshire</div></section>
+    <section class="option three"><span class="label">3 · Flourished Cormorant</span><div class="lockup"><span>Lili</span><i class="amp">&amp;</i><span>Tom</span></div><div class="date">28th August 2027 • 2pm • Steep, Hampshire</div></section>
+    <section class="option four"><span class="label">4 · Luminous Playfair</span><div class="lockup"><span>Lili</span><i class="amp">&amp;</i><span>Tom</span></div><div class="date">28th August 2027 • 2pm • Steep, Hampshire</div></section>
+    <section class="option five"><span class="label">5 · Calligraphic Italianno</span><div class="lockup"><span>Lili</span><i class="amp">&amp;</i><span>Tom</span></div><div class="date">28th August 2027 • 2pm • Steep, Hampshire</div></section>
+    <section class="option six"><span class="label">6 · Outline Bodoni</span><div class="lockup"><span>Lili</span><i class="amp">&amp;</i><span>Tom</span></div><div class="date">28th August 2027 • 2pm • Steep, Hampshire</div></section>
+  </main>
+</body>
+</html>
