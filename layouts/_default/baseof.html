@@ -3,7 +3,7 @@
 {{- end -}}
 
 <!DOCTYPE html>
-<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
+<html lang="{{ site.Language }}" dir="{{ .Language.Direction | default "auto" }}">
 
 <head>
     {{- partial "head.html" . }}
@@ -17,10 +17,10 @@
 {{- print " dark" }}
 {{- end -}}
 " id="top">
-    {{- if not .IsHome  }}
+    {{- if and (not .IsHome) (not .Params.hideSiteHeader) }}
     {{- partialCached "header.html" . .Page -}}
     {{- end }}
-    <main class="main">
+    <main class="main{{ if .Params.fullWidth }} main--full-width{{ end }}">
         {{- block "main" . }}{{ end }}
     </main>
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}

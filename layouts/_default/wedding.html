@@ -1,0 +1,68 @@
+{{- define "main" }}
+<article class="wedding-page">
+  <nav class="wedding-nav" aria-label="Wedding page navigation">
+    <a class="wedding-mark" href="#top" aria-label="Lili and Tom, back to top">L<span>&amp;</span>T</a>
+    <div class="wedding-nav__links">
+      <a href="#details">Details</a>
+      <a href="#travel">Travel</a>
+      <a class="wedding-nav__rsvp" href="#rsvp">RSVP</a>
+    </div>
+  </nav>
+
+  <header class="wedding-hero">
+    <img src="/images/lili-and-tom/poets-stone.png" alt="Poet’s Stone overlooking rolling Hampshire hills, framed by poppies and blue cornflowers" width="1672" height="941">
+    <div class="wedding-hero__veil"></div>
+    <div class="wedding-hero__content">
+      <h1><span>Lili</span><i>&amp;</i><span>Tom</span></h1>
+      <p class="wedding-date"><span class="wedding-date__item">28th August 2027</span><span class="wedding-date__item"><span class="wedding-date__separator" aria-hidden="true">•</span> 2pm</span><span class="wedding-date__item"><span class="wedding-date__separator" aria-hidden="true">•</span> Steep, Hampshire</span></p>
+    </div>
+    <a class="wedding-scroll" href="#welcome" aria-label="Scroll to our wedding details">↓</a>
+  </header>
+
+  <section class="wedding-intro" id="welcome">
+    <h2>Come and celebrate with us.</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+    <p class="wedding-note">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </section>
+
+  <section class="wedding-details" id="details">
+    <div class="wedding-section-heading">
+      <h2>Wedding details</h2>
+    </div>
+    <div class="wedding-card-grid">
+      <div class="wedding-card">
+        <h3>When</h3>
+        <p class="wedding-card__lead">28th August 2027<br>2pm</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="wedding-card">
+        <h3>Where</h3>
+        <p class="wedding-card__lead">All Saints’ Church<br><span class="no-break">Steep, Hampshire</span></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="wedding-card">
+        <h3>What to wear</h3>
+        <p class="wedding-card__lead">Anything you want</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wedding-travel" id="travel">
+    <div class="wedding-travel__copy">
+      <h2>Travel &amp; stay</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.</p>
+    </div>
+    <div class="wedding-travel__list">
+      <div><span>01</span><p><strong>Lorem ipsum</strong><br>Dolor sit amet, consectetur adipiscing elit</p></div>
+      <div><span>02</span><p><strong>Consectetur</strong><br>Maecenas faucibus mollis interdum</p></div>
+      <div><span>03</span><p><strong>Adipiscing elit</strong><br>Donec sed odio dui, cras justo odio</p></div>
+    </div>
+  </section>
+
+  <section class="wedding-rsvp" id="rsvp">
+    <h2>RSVP</h2>
+    <p>Details to follow</p>
+  </section>
+</article>
+{{- end }}
