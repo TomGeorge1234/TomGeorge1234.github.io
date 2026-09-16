@@ -2,23 +2,42 @@
 <article class="wedding-page">
   <nav class="wedding-nav" aria-label="Wedding page navigation">
     <a class="wedding-mark" href="#top" aria-label="Lili and Tom, back to top">L<span>&amp;</span>T</a>
+    {{/* Hidden for the save-the-date version.
     <div class="wedding-nav__links">
       <a href="#details">Details</a>
       <a href="#travel">Travel</a>
       <a class="wedding-nav__rsvp" href="#rsvp">RSVP</a>
     </div>
+    */}}
   </nav>
 
   <header class="wedding-hero">
     <img src="/images/lili-and-tom/poets-stone.png" alt="Poet’s Stone overlooking rolling Hampshire hills, framed by poppies and blue cornflowers" width="1672" height="941">
     <div class="wedding-hero__veil"></div>
     <div class="wedding-hero__content">
-      <h1><span>Lili</span><i>&amp;</i><span>Tom</span></h1>
-      <p class="wedding-date"><span class="wedding-date__item">28th August 2027</span><span class="wedding-date__item"><span class="wedding-date__separator" aria-hidden="true">•</span> 2pm</span><span class="wedding-date__item"><span class="wedding-date__separator" aria-hidden="true">•</span> Steep, Hampshire</span></p>
+      <div class="wedding-title-lockup">
+        <h1><span>Lili</span><i>&amp;</i><span>Tom</span></h1>
+        <p class="wedding-date"><span class="wedding-date__item">28th August 2027</span><span class="wedding-date__item"><span class="wedding-date__separator" aria-hidden="true">•</span> 2pm</span><span class="wedding-date__item"><span class="wedding-date__separator" aria-hidden="true">•</span> Steep, Hampshire</span></p>
+        <div class="wedding-save-the-date">
+          <span>Save the date!</span>
+          <a href="/lili-and-tom-wedding.ics" download>
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="5" width="18" height="16" rx="2"></rect>
+              <path d="M16 3v4M8 3v4M3 10h18"></path>
+              <path d="M12 14v4M10 16h4"></path>
+            </svg>
+            <span>Add to<br>calendar</span>
+          </a>
+        </div>
+        <p class="wedding-more-details"><em>more details to follow</em></p>
+      </div>
     </div>
+    {{/* Hidden for the save-the-date version.
     <a class="wedding-scroll" href="#welcome" aria-label="Scroll to our wedding details">↓</a>
+    */}}
   </header>
 
+  {{/* Temporarily hidden for the save-the-date version. Remove this comment wrapper to restore the information sections.
   <section class="wedding-intro" id="welcome">
     <h2>Come and celebrate with us.</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
@@ -64,5 +83,6 @@
     <h2>RSVP</h2>
     <p>Details to follow</p>
   </section>
+  */}}
 </article>
 {{- end }}
