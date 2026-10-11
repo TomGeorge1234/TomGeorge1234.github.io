@@ -1,7 +1,6 @@
 {{- define "main" }}
 <article class="wedding-page">
   <nav class="wedding-nav" aria-label="Wedding page navigation">
-    <a class="wedding-mark" href="#top" aria-label="Lili and Tom, back to top">L<span>&amp;</span>T</a>
     {{/* Hidden for the save-the-date version.
     <div class="wedding-nav__links">
       <a href="#details">Details</a>
@@ -29,13 +28,17 @@
             <span>Add to<br>calendar</span>
           </a>
         </div>
-        <p class="wedding-more-details"><em>more details to follow</em></p>
+        <section class="wedding-accommodation" aria-label="Accommodation">
+          <p>For those planning accommodation, one option is the <a href="https://www.premierinn.com/gb/en/search.html?searchModel.searchTerm=Petersfield,%20UK&amp;PLACEID=ChIJg-IIMYo1dEgR2MEPqajC-3o&amp;ARRdd=28&amp;ARRmm=8&amp;ARRyyyy=2027&amp;NIGHTS=1&amp;ROOMS=1&amp;ADULT1=1&amp;CHILD1=0&amp;COT1=0&amp;INTTYP1=DB&amp;BOOKINGCHANNEL=WEB&amp;SORT=1&amp;VIEW=2">Premier Inn in Petersfield</a>. Our wedding weekend isn’t available to book yet, but please check periodically. We’ll update this page with more information in due course.</p>
+        </section>
       </div>
     </div>
     {{/* Hidden for the save-the-date version.
     <a class="wedding-scroll" href="#welcome" aria-label="Scroll to our wedding details">↓</a>
     */}}
   </header>
+
+
 
   {{/* Temporarily hidden for the save-the-date version. Remove this comment wrapper to restore the information sections.
   <section class="wedding-intro" id="welcome">

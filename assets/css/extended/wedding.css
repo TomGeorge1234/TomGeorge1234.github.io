@@ -12,7 +12,11 @@
 .wedding-rsvp{align-items:center;backdrop-filter:blur(12px);background:var(--paper-glass);border:1px solid rgba(255,255,255,.45);border-radius:15px;box-shadow:0 20px 70px rgba(38,52,43,.14);display:flex;flex-direction:column;justify-content:center;margin:12vh auto;min-height:240px;position:relative;text-align:center;width:min(700px,calc(100% - 48px));z-index:2}.wedding-rsvp h2{margin-bottom:12px}.wedding-rsvp p{font-size:12px;letter-spacing:.14em;margin:0;text-transform:uppercase}
 .wedding-intro,.wedding-details,.wedding-travel,.wedding-rsvp{border:0}
 .wedding-save-the-date>a{line-height:1.15;text-align:center}
-.wedding-more-details{color:#fff;font-size:13px;font-weight:300;letter-spacing:.22em;margin:10px 0 0;text-transform:none}
+.wedding-title-lockup{position:relative}
+.wedding-accommodation{backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);background:rgba(255,255,255,.1);border-radius:8px;color:var(--ink);left:0;margin-top:clamp(64px,10vh,96px);padding:18px 20px;position:absolute;text-align:center;top:100%;width:100%;z-index:2}
+.wedding-page{min-height:100svh}
+.wedding-hero{height:min(94svh,920px)}
+.wedding-accommodation p{font-size:12px;line-height:1.65;margin:0}
+.wedding-accommodation a{color:inherit;text-decoration:underline;text-underline-offset:3px}
 @media(max-width:760px){.wedding-nav__links a:not(.wedding-nav__rsvp){display:none}.wedding-hero{min-height:600px}.wedding-hero>img{object-position:85% center}.wedding-hero h1{font-size:clamp(42px,15vw,66px);line-height:.78;margin:35px 0;white-space:nowrap}.wedding-hero h1 span{display:inline-block}.wedding-hero h1 i{font-size:.72em;line-height:1;margin:0 .16em}.wedding-date{font-size:11px;letter-spacing:.14em}.wedding-save-the-date{flex-direction:column;height:auto;margin-top:18px;min-height:48px;padding:4px 0;width:100%}.wedding-save-the-date>a{font-size:7px;height:18px;padding:0 5px;position:static}.wedding-save-the-date svg{height:11px;width:11px}.wedding-card-grid{grid-template-columns:1fr}.wedding-card{min-height:auto}.wedding-travel{gap:70px;grid-template-columns:1fr}.wedding-intro,.wedding-details,.wedding-travel,.wedding-rsvp{width:calc(100% - 32px)}.wedding-intro{padding-left:24px;padding-right:24px}}
-@media(max-width:760px){.wedding-more-details{font-size:11px;letter-spacing:.14em}}
 @media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}.wedding-card{transition:transform .35s ease}.wedding-card:hover{transform:translateY(-5px)}}
