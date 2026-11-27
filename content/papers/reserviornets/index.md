@@ -32,7 +32,7 @@ Completed as part of a rotation project with Athena Akrami and Claudia Clopath a
 ---
 
 
-![](turbulence.gif)
+![](schapiro.gif)
 
 ---
 
